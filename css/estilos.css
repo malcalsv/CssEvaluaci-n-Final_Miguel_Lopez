@@ -1,0 +1,280 @@
+.contenedor {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+	display: flex;
+  flex-flow: row wrap;
+  border: none;
+}
+.c1 {
+  color: #ddd;
+  background-color: #5b7989;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  animation-name:  slidein;
+  animation-duration: 3s;
+ }
+ .c1m {
+  color: #ddd;
+  background-color: #5b7989;
+  width: 100%;
+  text-align: right;
+  border: none;
+ }
+.c2 {
+  background-color:#82c3a6;
+  width: 100%;
+  text-align: center;
+}
+.c3 {
+  background-color:#d5c75f;
+  width: 50%;
+  text-align: center;
+}
+.c4 {
+    background-color:#d5c75f;
+      width: 50%;
+      text-align: center;
+  }
+  .c5 {
+    background-color: #C6d5c5;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px 0px 0px 10px;
+  }
+  .c6{
+    width: 25%;
+    background-color: #C6d5c5;
+    text-align: center;
+    justify-content: center;
+  }
+  .c7{
+    width: 25%;
+    background-color: #C6d5c5;
+    text-align: center;
+    justify-content: center;
+  }
+  .c8{
+    width: 25%;
+    background-color: #C6d5c5;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 0px;
+  }
+.c1>h1{
+    text-shadow: 2px 2px #02010a;
+}
+#menu{
+    display: inline-flex;
+    margin-right: 20px;
+    text-indent: 20px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+a{
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.imgcentral
+{
+    width: 90%;
+    height:90%;
+    margin-top: 3.5%;
+}
+.imgizq
+{
+    width: 80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    border: solid 2px;
+}
+
+
+#img2:hover{
+  transform: rotate(10deg);
+  -webkit-filter: drop-shadow(5px 10px 10px black);
+    filter: drop-shadow(drop-shadow(5px 10px 5px,black));
+}
+
+#img3:hover{
+  transform: translate(20px ,-5px);
+  -webkit-filter: drop-shadow(5px 10px 10px black);
+    filter: drop-shadow(drop-shadow(5px 10px 5px,black));
+}
+
+
+.imgder
+{
+    width: 80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+}
+h3{
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+@media all and (max-width: 420px) {
+  
+  
+  .c1 {
+		width: 100%;
+    order: 1;
+    text-align: center;
+	}
+  .c1m {
+    width: 100%;
+    order: 2;
+    text-align: center;
+	}
+	.c2 {
+		width: 100%;
+		order: 3;
+	}
+	.c3 {
+		width: 100%;
+    order: 4;
+    }
+    .c4 {
+		width: 100%;
+		order: 5;
+    }
+    .c5 {
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+		order: 6;
+  }
+  .c6 {
+		width: 100%;
+		order: 7;
+  }
+  .c7 {
+		width: 100%;
+		order: 8;
+  }
+  .c8 {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+		order: 9;
+  }
+  #menu{
+    margin-right: 50px;
+    text-indent: 20px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+ 
+}
+
+@media  (min-width: 421px) and (max-width: 720px)  {
+	.c1 {
+    width: 50%;
+    order: 1;
+    border: 0px;
+    margin: 0 auto;
+	}
+  .c1m {
+    width: 50%;
+    order: 2;
+    border: 0px;
+    margin: 0 auto;
+	}
+  .c2 {
+    width: 100%;
+    order: 3;
+	}
+	.c3 {
+    width: 50%;
+    order: 4;
+    }
+    .c4 {
+    width: 50%;
+    order: 5;
+    }
+    .c5 {
+    width: 100%;
+    order: 6;
+  }
+  .c6 {
+		width: 100%;
+		order: 7;
+  }
+  .c7 {
+		width: 100%;
+		order: 8;
+  }
+  .c8 {
+		width: 100%;
+		order: 9;
+  }
+  
+}
+
+
+@media  (min-width: 721px) and (max-width: 1024px)  {
+	.c1 {
+    width: 100%;
+    order: 1px;
+    text-align: center;
+	}
+  .c1m {
+    width: 100%;
+    order: 2;
+    text-align: center;
+	}
+  .c2 {
+    width: 100%;
+    order: 3;
+	}
+	.c3 {
+    width: 50%;
+    order: 4;
+    }
+    .c4 {
+      order: 5;
+		width: 50%;
+    }
+    .c5 {
+      order: 6;
+		width: 25%;
+  }
+  .c6 {
+		width: 25%;
+		order: 7;
+  }
+  .c7 {
+    order: 8;
+		width: 25%;
+  }
+  .c8 {
+		width: 25%;
+		order: 9;
+  }
+  #menu{
+    display: inline-flex;
+    margin-right: 20px;
+    text-indent: 20px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+}
+
+
+@-webkit-keyframes slidein {
+  0%{margin-top:150%}
+  60%{margin-top:-5%}
+  100%{margin-top:0%}
+}
